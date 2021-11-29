@@ -10,22 +10,31 @@ body{
    
 }
 
-.loginform{
-    background-color: #669AFF;
-}
-
 .body-center{
     text-align: center;
-}
-
-.body-pos{
-    
 }
 
 .nav-side{
     height: 100vh;
     padding: 0;
     margin: 0;
+}
+
+.posform{
+    top: 37%;
+    left: 37%;
+}
+
+.bg-title h1{
+    font-size: 70px;
+    font-family: 'Saira Semi Condensed', sans-serif;
+    color: #1a56ce;
+    letter-spacing: 7px;
+}
+
+.tit-font{
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 17px;
 }
 
 .nive-side-inside{
@@ -37,4 +46,33 @@ body{
 .con-form .conn{
     padding-right: 30px;
     
+}
+
+.weltitle{
+    font-size: 20px;
+}
+
+.infotext{
+    font-size: 15px;
+    letter-spacing: 1px;
+}
+
+.text-footer{
+    font-size: 15px;
+    position: relative;
+    top: 30px;
+    padding: 10px;
+    margin: 50px;
+    box-shadow: 0 8px 16px 0 #676b70, 0 6px 20px 0 #99a1b1;
+    width: 250px;
+    color: #fff;
+    background-color: #669AFF;
+    border: none;
+}
+
+.footer-text{
+    text-align: center;
+    position: relative;
+    top: 60em;
+    left: 10px;
 }
