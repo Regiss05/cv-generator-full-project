@@ -1,0 +1,40 @@
+body{
+    font-family: 'Montserrat';font-size: 12px;
+    background-image: url("../images/bg-picture.svg");
+    background-size: cover; 
+
+}
+
+.container {
+    max-width: 100%;
+   
+}
+
+.loginform{
+    background-color: #669AFF;
+}
+
+.body-center{
+    text-align: center;
+}
+
+.body-pos{
+    
+}
+
+.nav-side{
+    height: 100vh;
+    padding: 0;
+    margin: 0;
+}
+
+.nive-side-inside{
+    background-color: #669AFF;
+    height: 100%;
+    width: 80%;
+}
+
+.con-form .conn{
+    padding-right: 30px;
+    
+}
