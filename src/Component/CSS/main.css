@@ -1,5 +1,6 @@
 body{
-    font-family: 'Montserrat';font-size: 12px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
     background-image: url("../images/bg-picture.svg");
     background-size: cover; 
 
@@ -33,7 +34,6 @@ body{
 }
 
 .tit-font{
-    font-family: 'Roboto', sans-serif;
     margin-bottom: 17px;
 }
 
@@ -75,4 +75,5 @@ body{
     position: relative;
     top: 60em;
     left: 10px;
+    letter-spacing: 1px;
 }
