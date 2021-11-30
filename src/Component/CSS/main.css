@@ -23,7 +23,7 @@ body{
 
 .posform{
     top: 37%;
-    left: 37%;
+    left: 32%;
 }
 
 .bg-title h1{
@@ -31,6 +31,10 @@ body{
     font-family: 'Saira Semi Condensed', sans-serif;
     color: #1a56ce;
     letter-spacing: 7px;
+}
+
+.bg-title h1 span{
+    color: #B65BC6;
 }
 
 .tit-font{
@@ -70,10 +74,37 @@ body{
     border: none;
 }
 
+.text-footer:hover{
+    background-color: #B65BC6;
+    transition: all 1s ease-in-out;
+}
+
 .footer-text{
     text-align: center;
     position: relative;
     top: 60em;
-    left: 10px;
+    right: 35px;
     letter-spacing: 1px;
+}
+
+.nav-text-color{
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    color: #fff !important;
+}
+
+.nav-text-color:hover{
+    background-color: #4275db;
+    transition: all 0.7s ease-out;
+}
+
+.nav-text-color h1{
+    font-size: 18px;   
+    font-weight: bolder;
+    margin-left: 10px;
+    
+}
+
+.loginForm{
+    background-color: red;
 }
