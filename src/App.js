@@ -1,4 +1,3 @@
-import Index from './Component/index';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import Home from './Component/index';
 import Login from './Component/Js/login';
@@ -6,7 +5,6 @@ import Login from './Component/Js/login';
 function App() {
   return (
     <div className="App">
-      {/* <Index /> */}
       <Router>
         <>
           <Route exact path="/" component={Home} />

@@ -67,7 +67,6 @@ body{
     top: 30px;
     padding: 10px;
     margin: 50px;
-    box-shadow: 0 8px 16px 0 #676b70, 0 6px 20px 0 #99a1b1;
     width: 250px;
     color: #fff;
     background-color: #669AFF;
@@ -105,6 +104,88 @@ body{
     
 }
 
-.loginForm{
-    background-color: red;
+.form-lg{
+    height: 60vh;
+    width: 50vh;
+}
+
+.form-lg2{
+    height: 60vh;
+    width: 40vh;
+}
+
+.bgc-c1{
+    background-image: url("../images/Group\ 11.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: #fff;
+
+}
+
+.bgc-c2{
+   background-color: #fff;
+   border-top-right-radius: 10px;
+   border-bottom-right-radius: 10px;
+}
+
+.pos-ab{
+    position: absolute;
+    top: 18%;
+    left: 18%;
+}
+
+.text-form-control{
+    font-family: 'Roboto', sans-serif;
+}
+
+.form-control{
+    border-color: transparent transparent #4275db transparent;
+    width: 30vh;
+    margin-left: 30px;
+}
+
+.psc-between{
+    margin-top: 50px;
+}
+
+.form-lg2 h1{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 30px;
+    margin-top: 70px;
+    color: black;
+}
+
+.text-label-mod{
+    margin-left: 20px;
+    color: rgb(104, 104, 104);
+}
+
+.text-footer1{
+    font-size: 15px;
+    position: relative;
+    top: 0;
+    padding: 10px;
+    margin: 50px 50px 50px 30px;
+    width: 230px;
+    color: #fff;
+    background-color: #669AFF;
+    border: none;
+}
+
+.form-lg2 span{
+    color: #669AFF;
+    position: relative;
+    left: 90px;
+    top: 10px;
+}
+
+.form1{
+    transition: all 1s ease-in-out;
+}
+
+.text-footer1:hover{
+    background-color: #B65BC6;
+    transition: all 1s ease-in-out;
 }
