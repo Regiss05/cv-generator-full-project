@@ -1,0 +1,16 @@
+.tit-pag h1{
+    font-size: 20px;
+    font-family: 'Saira Semi Condensed', sans-serif;
+    color: #1a56ce;
+    letter-spacing: 3px;
+}
+
+.tit-pag h1 span{
+    color: #B65BC6;
+
+}
+
+.mgh {
+    margin: 30px 30px 0 30px;
+    background-color: #fff;
+}

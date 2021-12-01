@@ -1,14 +1,12 @@
 body{
     font-family: 'Roboto', sans-serif;
     font-size: 12px;
-    background-image: url("../images/bg-picture.svg");
-    background-size: cover; 
-
 }
 
 .container {
     max-width: 100%;
-   
+    background-image: url("../images/bg-picture.svg");
+    background-size: cover; 
 }
 
 .body-center{
@@ -202,7 +200,7 @@ body{
 
 .btn-marg{
     margin-left: 30px;
-    background-color: #669AFF;
+    background-color: #B65BC6;
     border: none;
     border-radius: 0;
     height: 40px;
