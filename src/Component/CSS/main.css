@@ -189,3 +189,30 @@ body{
     background-color: #B65BC6;
     transition: all 1s ease-in-out;
 }
+
+.form-lg3{
+    height: 60vh;
+    width: 40vh;
+}
+
+.form1{
+    background-color: #fff;
+    height: 80vh;
+}
+
+.btn-marg{
+    margin-left: 30px;
+    background-color: #669AFF;
+    border: none;
+    border-radius: 0;
+    height: 40px;
+    width: 30vh;
+}
+
+.gen-check{
+    margin-left: 90px !important;
+}
+
+.gen-tit-conf{
+    color: red;
+}

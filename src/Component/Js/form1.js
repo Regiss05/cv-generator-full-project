@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import Navbar from '../Js/navbar';
+import SFooter from '../Js/simpleFooter';
 
 export default class form1 extends Component {
     render() {
@@ -14,7 +15,7 @@ export default class form1 extends Component {
                             <div className="title3 infotext tit-font">Nous vous connectons avec les entreprises</div>
                             <button type="button" class="text-footer">Creer un compte</button>
                         </div>
-                        <div className="footer-text">Creez votre cv et postuler avec le lien</div>
+                        <SFooter />
                     </div>
                 </div>
             </div>

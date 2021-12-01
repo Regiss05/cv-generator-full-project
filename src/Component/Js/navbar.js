@@ -8,17 +8,18 @@ export default class navbar extends Component {
                     <nav id="navbar-example3" class="navbar navbar-light flex-column align-items-stretch p-3">
                         <a class="navbar-brand nav-text-color" href="#"><h1>HOME</h1></a>
                         <nav class="nav nav-pills flex-column">
-                            <a class="nav-link nav-text-color" href="#item-1">Item 1</a>
+                            <a class="nav-link nav-text-color" href="#">Utilisateur</a>
                             <nav class="nav nav-pills flex-column">
-                                <a class="nav-link ms-3 my-1 nav-text-color" href="#item-1-1">Item 1-1</a>
-                                <a class="nav-link ms-3 my-1 nav-text-color" href="#item-1-2">Item 1-2</a>
+                                <a class="nav-link ms-3 my-1 nav-text-color" href="#">Creer un compte</a>
+                                <a class="nav-link ms-3 my-1 nav-text-color" href="#">Se connecter</a>
                             </nav>
-                            <a class="nav-link nav-text-color" href="#item-2">Item 2</a>
-                            <a class="nav-link nav-text-color" href="#item-3">Item 3</a>
+                            <a class="nav-link nav-text-color" href="#item-1">Travail</a>
                             <nav class="nav nav-pills flex-column">
-                                <a class="nav-link ms-3 my-1 nav-text-color" href="#item-3-1">Item 3-1</a>
-                                <a class="nav-link ms-3 my-1 nav-text-color" href="#item-3-2">Item 3-2</a>
+                                <a class="nav-link ms-3 my-1 nav-text-color" href="#">Creer un travail</a>
+                                <a class="nav-link ms-3 my-1 nav-text-color" href="#">Voir travail</a>
+                                <a class="nav-link ms-3 my-1 nav-text-color" href="#">Postuler</a>
                             </nav>
+                            
                         </nav>
                     </nav>
                 </div>

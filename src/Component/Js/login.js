@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import '../CSS/main.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Navbar from '../Js/navbar';
+import SFooter from '../Js/simpleFooter';
 
 export default class login extends Component {
     render() {
@@ -25,12 +26,11 @@ export default class login extends Component {
                                         <label for="floatingPassword" className="text-label-mod">Password</label>
                                     </div>
                                     <span>mot de passe oublier</span>
-                                    <button type="button" class="text-footer1">Creer un compte</button>
+                                    <button type="button" class="text-footer1">Connecter</button>
                                 </div>
                                 
                             </div>
-                            
-                            <div className="footer-text">Creez votre cv et postuler avec le lien</div>
+                            <SFooter />
                         </div>
                     </div>
                 </div>
