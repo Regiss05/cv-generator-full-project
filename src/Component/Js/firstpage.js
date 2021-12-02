@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import SFooter from './simpleFooter';
 import '../CSS/indexPage.css'
-import profImage from '../images/regiss.jpeg'
+import profImage from '../images/regiss.jpeg';
 
 export default class firstpage extends Component {
     render() {
@@ -15,9 +15,13 @@ export default class firstpage extends Component {
                         <button class="btn" type="submit">Share</button>
                     </form>
                 </nav>
-                <nav className="row">
-                    <profImage />
-                </nav>
+                <div className="">
+                    <img src={profImage} class="rounded-circle mx-auto d-block image-prof" alt="..."></img>
+                </div>
+                <div className="">
+                    <h1 className="usname text-center">Regiss Mukubiza</h1>
+                </div>
+
             </div>
         )
     }

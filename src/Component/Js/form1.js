@@ -5,7 +5,7 @@ import SFooter from '../Js/simpleFooter';
 export default class form1 extends Component {
     render() {
         return (
-            <div class="container">
+            <div class="container cont1">
                 <div class="row">
                    <Navbar />
                     <div className="col-10 position-relative">
