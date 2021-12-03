@@ -1,3 +1,9 @@
+.bod-wit{
+    max-width: 100%;
+    font-family: 'Ruluko', sans-serif;
+    font-size: 17px;
+}
+
 .tit-pag h1{
     font-size: 20px;
     font-family: 'Saira Semi Condensed', sans-serif;
@@ -16,12 +22,94 @@
 }
 
 .image-prof{
-    height: 50vh;
+    margin-top: 70px;
+    margin-bottom: 30px;
+    height: 30vh;
 }
 
 .usname{
-    color: blue;
-    font-size: 30px;
-    font-family: 'Ruluko', sans-serif;
+    font-size: 25px;
     font-weight: 900;
+}
+
+.par{
+    color: #1a56ce;
+    font-size: 17px;
+}
+
+.text-usname{
+    line-height: 1;
+}
+
+.mg-mot{
+    margin: 8vh 0vh 3vh 37vh;
+}
+
+.mot-form{
+    /* border: 1px solid #1a56ce; */
+    margin-right: 70px;
+}
+
+.motiv-tex p{
+    text-indent: 14em;
+    margin: 30px 3em;
+    text-align: justify;
+}
+
+.signcs{
+    height: 15vh;
+    width: 20vh;
+    margin-right: 50px;
+}
+
+.park1{
+    color: #1a56ce;
+    margin-right: 50px;
+}
+
+.exp-title{
+    color: #1a56ce; 
+}
+
+.exp-text{
+    background-color: #1a56ce;
+    color: rgb(230, 230, 230);
+}
+
+.big-title-left {
+    color: #1a56ce;
+    font-weight: bolder;
+    font-weight: 5px;
+    font-size: 17px;
+    position: absolute;
+    left: 66px;
+    background-color: white;
+    width: 77px;
+    top: 31.5em;
+}
+
+.title-luang{
+     
+}
+
+.tit-left-men{
+    color: #1a56ce;
+    font-weight: lighter;
+    font-size: 16px;
+}
+
+.np1{
+    /* border: 1px solid red; */
+    padding: 50px;
+    font-size: 15px;
+}
+
+.row-ident{
+    border: 1px solid #1a56ce;
+    padding: 20px;
+    line-height: 1;
+}
+
+.title-luang{
+    color: #1a56ce;
 }
