@@ -45,10 +45,6 @@
     margin: 8vh 0vh 3vh 37vh;
 }
 
-.mot-form{
-    /* border: 1px solid #1a56ce; */
-    margin-right: 70px;
-}
 
 .motiv-tex p{
     text-indent: 14em;
@@ -69,11 +65,14 @@
 
 .exp-title{
     color: #1a56ce; 
+    margin: 30px;
 }
 
 .exp-text{
     background-color: #1a56ce;
     color: rgb(230, 230, 230);
+    padding: 65px;
+    text-align: center;
 }
 
 .big-title-left {
@@ -88,8 +87,25 @@
     top: 31.5em;
 }
 
-.title-luang{
-     
+.title-luang h2{
+    font-size: 17px;
+    color: #1a56ce;
+    position: absolute;
+    font-weight: bolder;
+    left: 60px;
+    top: 50.7em;
+    background-color: white;
+    width: 12vh;
+}
+
+.luang-confi{
+    margin: 0.5vh;
+}
+
+.rw3{
+    height: 30px;
+    background-color: #B65BC6;
+    margin: 20px 0;
 }
 
 .tit-left-men{
@@ -110,6 +126,37 @@
     line-height: 1;
 }
 
-.title-luang{
+.title-compt{
+    font-size: 17px;
     color: #1a56ce;
+    position: absolute;
+    font-weight: bolder;
+    left: 60px;
+    top: 57.7em;
+    background-color: white;
+    width: 15vh;
+}
+
+.form-comp{
+    margin-top: 28px;
+}
+
+.rvb1{
+    margin-top: 50px;
+}
+
+.but-men{
+    border-radius: 5px;
+}
+
+.rvb11{
+    background-color: #1a56ce;
+}
+
+.rvb12{
+    background-color: rgb(204, 204, 204);
+}
+
+.rvb13{
+    background-color: rgb(204, 204, 204);
 }

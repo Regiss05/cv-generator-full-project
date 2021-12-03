@@ -51,10 +51,10 @@ export default class firstpage extends Component {
                                 </div>
                                 </div>
                             </div>
-                            <div className="row rw border-0 rw3"></div>
+                            <div className="row rw3"></div>
                             <div className="row">
                                 <div className="row title-luang"><h2>Language</h2></div>
-                                <div className="row row-ident">
+                                <div className="row row-ident luang-confi">
                                     <div className="row">
                                         <div className="col">Francais: </div>
                                         <div className="col">Avancer</div>
@@ -70,8 +70,8 @@ export default class firstpage extends Component {
                                 </div>
                             </div>
                             <div className="row">
-                                <h2>Comptetance</h2>
-                                <div className="row row-ident">
+                                <h2 className="title-compt">Comptetance</h2>
+                                <div className="row row-ident luang-confi form-comp">
                                     <div className="row">Travail en équipe</div>
                                     <div className="row">Résolution de problème</div>
                                     <div className="row">Leadership</div>
@@ -114,7 +114,8 @@ export default class firstpage extends Component {
                         <div className="row exp-text">
                             <div className="col px1">
                                 <div className="row">
-                                    Mai 2018 – Aout 2018 Programmeur at OVG RDC, Nord-Kivu, Goma
+                                    Mai 2018 – Aout 2018 -Programmeur at OVG RDC
+                                    Nord-Kivu, Goma
                                 </div>
                                 <div className="row">
                                     Aout 2019 – Octobre 2019 Programmeur Andela Rwanda, Kigali at Bootcamp participation
@@ -139,9 +140,9 @@ export default class firstpage extends Component {
                     </div>
                     <div className="row rvb">
                         <div className="row rvb1">
-                            <div className="col rvb11"></div>
-                            <div className="col rvb12"></div>
-                            <div className="col rvb13"></div>
+                            <div className="col-2 rvb11 but-men">Education</div>
+                            <div className="col-2 rvb12 but-men">Projet personnel</div>
+                            <div className="col-2 rvb13 but-men">Contribution</div>
                         </div>
                         <div className="row rvb2"></div>
                     </div>
