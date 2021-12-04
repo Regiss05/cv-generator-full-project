@@ -31,6 +31,18 @@
     background-color: #1a56ce;
 }
 
+.bt-col1:hover{
+    background-color: #B65BC6;
+    transition: 1s all ease-in-out;
+    font-size: 15px;
+}
+
+.bt-col2:hover{
+    background-color: #B65BC6;
+    transition: 1s all ease-in-out;
+    font-size: 15px;
+}
+
 .bt-col2{
     background-color: #55C27A;
 }
