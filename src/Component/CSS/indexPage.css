@@ -1,12 +1,13 @@
 .bod-wit{
     max-width: 100%;
-    font-family: 'Ruluko', sans-serif;
     font-size: 17px;
+    padding: 0 20vh;
 }
 
 .tit-pag h1{
     font-size: 20px;
     font-family: 'Saira Semi Condensed', sans-serif;
+    font-weight: bold;
     color: #1a56ce;
     letter-spacing: 3px;
 }
@@ -14,6 +15,24 @@
 .tit-pag h1 span{
     color: #B65BC6;
 
+}
+
+.bt-m{
+    width: 15vh;
+    border: none;
+    margin: 5px;
+    color: white;
+    height: 35px;
+    font-size: 13px;
+    border-radius: 5px;
+}
+
+.bt-col1{
+    background-color: #1a56ce;
+}
+
+.bt-col2{
+    background-color: #55C27A;
 }
 
 .mgh {
@@ -25,6 +44,7 @@
     margin-top: 70px;
     margin-bottom: 30px;
     height: 30vh;
+    border: 4px solid #B65BC6;
 }
 
 .usname{
@@ -66,14 +86,15 @@
 .exp-title{
     color: #1a56ce; 
     margin: 30px;
+    font-size: 17px;
 }
 
 .exp-text{
-    background-color: #1a56ce;
-    color: rgb(230, 230, 230);
+    color: rgb(255 255 255);
     padding: 65px;
     text-align: center;
-    height: 44vh;
+    height: 49vh;
+    background-color: #669AFF;
     
 }
 
@@ -83,7 +104,7 @@
     font-weight: 5px;
     font-size: 17px;
     position: absolute;
-    left: 66px;
+    left: 24vh;
     background-color: white;
     width: 77px;
     top: 31.5em;
@@ -94,8 +115,8 @@
     color: #1a56ce;
     position: absolute;
     font-weight: bolder;
-    left: 60px;
-    top: 50.7em;
+    left: 25vh;
+    top: 51em;
     background-color: white;
     width: 12vh;
 }
@@ -105,9 +126,11 @@
 }
 
 .rw3{
-    height: 30px;
     background-color: #B65BC6;
     margin: 20px 0;
+    border-radius: 4px;
+    color: white;
+    text-align: center;
 }
 
 .tit-left-men{
@@ -123,7 +146,7 @@
 }
 
 .row-ident{
-    border: 1px solid #1a56ce;
+    border: 1px solid #afcaff;
     padding: 20px;
     line-height: 1;
 }
@@ -133,8 +156,8 @@
     color: #1a56ce;
     position: absolute;
     font-weight: bolder;
-    left: 60px;
-    top: 57.7em;
+    left: 25vh;
+    top: 59em;
     background-color: white;
     width: 15vh;
 }
@@ -156,10 +179,12 @@
 }
 
 .rvb11{
-    background-color: #1a56ce;
+    background-color: #669AFF;
     color: white;
     border-radius: 20px;
-
+    text-align: center;
+    margin: 5px;
+    height: 30px;
 }
 
 .rvb11:hover{
@@ -167,32 +192,36 @@
 }
 
 .rvb2{
-    background-color: rgb(204, 204, 204);
+    background-color: #F5F5F5;
     height: 17vh;
     padding: 50px;
 }
 
 .rvb12{
-    color: #1a56ce;
+    color: #669AFF;
     background-color: #fff;
     border-radius: 20px;
+    text-align: center;
+    margin: 5px;
 }
 
 .rvb13{
-    color: #1a56ce;
+    color: #669AFF;
     background-color: #fff;
     border-radius: 20px;
+    text-align: center;
 }
 
 .text-connai{
-    height: 13vh;
     text-align: center;
+    margin: 50px 0;
+    color: #1a56ce;
 }
 
 .text-connai-body{
     background-color: #1a56ce;
     color: white;
-    padding: 5vh 50vh;
+    padding: 5vh 18vh;
 }
 
 .text-connai-body ul li h1{
@@ -208,5 +237,31 @@
 
 .foot{
     height: 20vh;
-    background-color: rgb(54, 54, 54);
+    background-color: #707070;
+    color: white;
+    padding: 30px;
+}
+
+.px-mag{
+    margin: 20px;
+    text-align: left;
+}
+
+.txt-pg{
+    margin: 20px 0;
+}
+
+.devl{
+    margin-top: 70px;
+    text-align: center;
+    color: rgb(224, 224, 224);
+    font-family: 'Ruda', sans-serif;
+}
+
+.latcol{
+    font-family: 'Saira Semi Condensed', sans-serif;
+    font-weight: bold;
+    color: #ffffff;
+    letter-spacing: 3px;
+    text-decoration: none;
 }

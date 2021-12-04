@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import SFooter from './simpleFooter';
 import '../CSS/indexPage.css'
 import profImage from '../images/regiss.jpeg';
 import signImage from '../images/image 1.png';
@@ -12,8 +11,8 @@ export default class firstpage extends Component {
                 <nav class="navbar navbar-light justify-content-between mgh">
                     <a class="navbar-brand tit-pag"><h1>KAZI<span>.COM</span></h1></a>
                     <form class="form-inline">
-                        <button class="btn" type="submit">Edit</button>
-                        <button class="btn" type="submit">Share</button>
+                        <button class=" bt-m bt-col1" type="submit">Changer CV</button>
+                        <button class=" bt-m bt-col2" type="submit">Partager CV</button>
                     </form>
                 </nav>
                 <div className="">
@@ -51,7 +50,7 @@ export default class firstpage extends Component {
                                     </div>
                                 </div>
                             </div>
-                            <div className="row rw3"></div>
+                            <div className="rw3">Mon Template</div>
                             <div className="row">
                                 <div className="row title-luang"><h2>Language</h2></div>
                                 <div className="row row-ident luang-confi">
@@ -112,26 +111,26 @@ export default class firstpage extends Component {
                     <div className="row">
                         <h3 className="exp-title text-center">Experience</h3>
                         <div className="row exp-text">
-                            <div className="col px1">
-                                <div className="row">
+                            <div className="col px1 px-mag">
+                                <div className="row txt-pg">
                                     Mai 2018 – Aout 2018 -Programmeur at OVG RDC
                                     Nord-Kivu, Goma
                                 </div>
-                                <div className="row">
+                                <div className="row txt-pg">
                                     Aout 2019 – Octobre 2019 Programmeur Andela Rwanda, Kigali at Bootcamp participation
                                 </div>
-                                <div className="row">
+                                <div className="row txt-pg">
                                     Novembre 2019 – juillet 2019 analyste des données at AGESTA RDC, Sud-Kivu, Bukavu
                                 </div>
                             </div>
-                            <div className="col px2">
-                                <div className="row">
+                            <div className="col px2 px-mag ">
+                                <div className="row txt-pg">
                                     Mai 2018 – Aout 2018 Programmeur at OVG RDC, Nord-Kivu, Goma
                                 </div>
-                                <div className="row">
+                                <div className="row txt-pg">
                                     Aout 2019 – Octobre 2018 ProgrammeurAndela Rwanda, Kigali at Bootcamp participation
                                 </div>
-                                <div className="row">
+                                <div className="row txt-pg">
                                     Novembre 2019 – juillet 2019 analyste des données at AGESTA RDC, Sud-Kivu, Bukavu
                                 </div>
                             </div>
@@ -150,7 +149,7 @@ export default class firstpage extends Component {
                         </div>
                     </div>
                     <div className="row">
-                        <div className="row text-connai">Connaissance</div>
+                        <div className="text-connai">Connaissance</div>
                         <div className="row text-connai-body">
                             <ul>
                                 <li>
@@ -186,12 +185,23 @@ export default class firstpage extends Component {
                             </ul>
                         </div>
                         <div className="row row d-flex align-items-end flex-column">
-                          <div className="tex-sign p-3">Je jure sur mon honneur que les informations ci-dessus fournies sont sincères et vérifiables.</div>
+                            <div className="tex-sign p-3">Je jure sur mon honneur que les informations ci-dessus fournies sont sincères et vérifiables.</div>
                         </div>
                         <div className="row d-flex align-items-end flex-column">
                             <img src={signImage} className="signcs p-3" />
                         </div>
-                        <div className="foot"></div>
+                        <div className="foot">
+                            <div className="row">
+                                <a class="col latcol">KAZI.COM</a>
+                                <div className="col">Mon CV</div>
+                                <div className="col">Trouver un Travail</div>
+                                <div className="col">Visiter</div>
+                            </div>
+                            <div className="devl">
+                                Dev By GomaGroupDev and Novatech
+                            </div>
+                        </div>
+
                     </div>
                 </div>
 
