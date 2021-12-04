@@ -73,6 +73,8 @@
     color: rgb(230, 230, 230);
     padding: 65px;
     text-align: center;
+    height: 44vh;
+    
 }
 
 .big-title-left {
@@ -143,6 +145,10 @@
 
 .rvb1{
     margin-top: 50px;
+    margin-top: 50px;
+    position: relative;
+    top: 15px;
+    margin-left: 20px;
 }
 
 .but-men{
@@ -151,12 +157,56 @@
 
 .rvb11{
     background-color: #1a56ce;
+    color: white;
+    border-radius: 20px;
+
+}
+
+.rvb11:hover{
+    cursor: hand;
+}
+
+.rvb2{
+    background-color: rgb(204, 204, 204);
+    height: 17vh;
+    padding: 50px;
 }
 
 .rvb12{
-    background-color: rgb(204, 204, 204);
+    color: #1a56ce;
+    background-color: #fff;
+    border-radius: 20px;
 }
 
 .rvb13{
-    background-color: rgb(204, 204, 204);
+    color: #1a56ce;
+    background-color: #fff;
+    border-radius: 20px;
+}
+
+.text-connai{
+    height: 13vh;
+    text-align: center;
+}
+
+.text-connai-body{
+    background-color: #1a56ce;
+    color: white;
+    padding: 5vh 50vh;
+}
+
+.text-connai-body ul li h1{
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.text-connai-body ul li p{
+    font-size: 17px;
+    font-weight: bold;
+    color: rgb(207, 207, 207);
+}
+
+.foot{
+    height: 20vh;
+    background-color: rgb(54, 54, 54);
 }

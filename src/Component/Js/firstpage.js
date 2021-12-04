@@ -29,26 +29,26 @@ export default class firstpage extends Component {
                             <div className="row ">
                                 <h2 className="big-title-left">Identite</h2>
                                 <div className="row-ident">
-                                <div className="title-left-11">
-                                    <h3 className="tit-left-men">Email</h3>
-                                    <div className="text-mail">regiss.steven@gmail.com</div>
-                                </div>
-                                <div className="title-left-12">
-                                    <h3 className="tit-left-men">Adresse</h3>
-                                    <div className="text-adresse">Nord Kivu, Goma, RDC</div>
-                                </div>
-                                <div className="title-left-13">
-                                    <h3 className="tit-left-men">Telephone</h3>
-                                    <div className="text-phone">+243 979 595 336</div>
-                                </div>
-                                <div className="title-left-14">
-                                    <h3 className="tit-left-men">Date de naissance</h3>
-                                    <div className="text-bd">31/03/1994</div>
-                                </div>
-                                <div className="title-left-15">
-                                    <h3 className="tit-left-men">Nationalité</h3>
-                                    <div className="text-nation">Congolaise</div>
-                                </div>
+                                    <div className="title-left-11">
+                                        <h3 className="tit-left-men">Email</h3>
+                                        <div className="text-mail">regiss.steven@gmail.com</div>
+                                    </div>
+                                    <div className="title-left-12">
+                                        <h3 className="tit-left-men">Adresse</h3>
+                                        <div className="text-adresse">Nord Kivu, Goma, RDC</div>
+                                    </div>
+                                    <div className="title-left-13">
+                                        <h3 className="tit-left-men">Telephone</h3>
+                                        <div className="text-phone">+243 979 595 336</div>
+                                    </div>
+                                    <div className="title-left-14">
+                                        <h3 className="tit-left-men">Date de naissance</h3>
+                                        <div className="text-bd">31/03/1994</div>
+                                    </div>
+                                    <div className="title-left-15">
+                                        <h3 className="tit-left-men">Nationalité</h3>
+                                        <div className="text-nation">Congolaise</div>
+                                    </div>
                                 </div>
                             </div>
                             <div className="row rw3"></div>
@@ -144,11 +144,55 @@ export default class firstpage extends Component {
                             <div className="col-2 rvb12 but-men">Projet personnel</div>
                             <div className="col-2 rvb13 but-men">Contribution</div>
                         </div>
-                        <div className="row rvb2"></div>
+                        <div className="row rvb2"> 2019					Graduated
+                            ULK (Université Libre de Kigali) Rwanda, Gisenyi
+
+                        </div>
                     </div>
-                    <div className="row"></div>
-                    <div className="row"></div>
-                    <div className="row"></div>
+                    <div className="row">
+                        <div className="row text-connai">Connaissance</div>
+                        <div className="row text-connai-body">
+                            <ul>
+                                <li>
+                                    <h1>Programmation </h1>
+                                    <p>JS: nodejs/Express, ReactJS, ES6, Rest API, ESLINT,    MOCHA, TDD,
+                                        HTML5, CSS3, C#, C++, Arduino
+                                    </p>
+                                </li>
+                                <li>
+                                    <h1>Outils</h1>
+                                    <p>Github, Git, Pivatal tracker, Travis CI, Postman</p>
+                                </li>
+                                <li>
+                                    <h1>Base de données:</h1>
+                                    <p>MYSQL, POSTGRES</p>
+                                </li>
+                                <li>
+                                    <h1>Réseaux</h1>
+                                    <p>CISCO, Maintenance</p>
+                                </li>
+                                <li>
+                                    <h1>Electronique</h1>
+                                    <p> Arduino, computer Maintenance</p>
+                                </li>
+                                <li>
+                                    <h1>Bureaucratie</h1>
+                                    <p>Word, Excel, Access, Power Point, Publisher</p>
+                                </li>
+                                <li>
+                                    <h1>Camera des surveillance :</h1>
+                                    <p>Hik vision, ...</p>
+                                </li>
+                            </ul>
+                        </div>
+                        <div className="row row d-flex align-items-end flex-column">
+                          <div className="tex-sign p-3">Je jure sur mon honneur que les informations ci-dessus fournies sont sincères et vérifiables.</div>
+                        </div>
+                        <div className="row d-flex align-items-end flex-column">
+                            <img src={signImage} className="signcs p-3" />
+                        </div>
+                        <div className="foot"></div>
+                    </div>
                 </div>
 
             </div>
