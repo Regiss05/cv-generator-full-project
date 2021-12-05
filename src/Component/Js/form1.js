@@ -8,7 +8,7 @@ export default class form1 extends Component {
             <div class="container cont1">
                 <div class="row">
                    <Navbar />
-                    <div className="col-10 position-relative">
+                    <div className="col-10 position-relative bod-bg">
                         <div className="body-center body-pos position-absolute posform">
                             <div className="title2 weltitle tit-font">BIENVENUE A</div>
                             <div className="bg-title"><h1>KAZI<span>.COM</span></h1></div>
